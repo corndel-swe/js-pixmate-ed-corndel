@@ -16,5 +16,11 @@
  * @returns {number} The count of numbers larger than 10
  */
 export function gridLimit(grid) {
-  // TODO
+  let number = 0
+  for (let arr of grid) {
+    for (let i of arr) {
+      ((i > 10) ? number++ : number)
+    }
+  }
+  return number
 }
