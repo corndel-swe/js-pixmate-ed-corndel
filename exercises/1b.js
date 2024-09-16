@@ -11,5 +11,5 @@
  * @returns {number} The sum of the array
  */
 export function sumArray(arr) {
-  // TODO
+  return arr.reduce((acc, current) => acc + current,0)
 }
