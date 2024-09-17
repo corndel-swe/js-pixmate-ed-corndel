@@ -1,0 +1,24 @@
+{
+  "name": "swe-js-codecanvas",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "chalk": "^5.3.0"
+  },
+  "scripts": {
+    "test": "mocha ./tests",
+    "test:1a": "mocha ./tests/1a.test.js",
+    "test:1b": "mocha ./tests/1b.test.js",
+    "test:2a": "mocha ./tests/2a.test.js",
+    "test:2b": "mocha ./tests/2b.test.js",
+    "test:3": "mocha ./tests/3.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  }
+}
