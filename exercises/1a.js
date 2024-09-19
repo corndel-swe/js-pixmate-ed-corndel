@@ -12,5 +12,13 @@
  * @returns {number} The sum of the even numbers smaller than or equal to n
  */
 export function addEven(n) {
-  // TODO
+  let number = 0
+  let i = 1
+  while (i <= n) {
+    if (i % 2 === 0) {
+      number += i
+    }
+    i++
+  }
+  return number
 }

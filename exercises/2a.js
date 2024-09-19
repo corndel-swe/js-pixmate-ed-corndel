@@ -12,5 +12,12 @@
  * @returns {number} The sum of numbers that meet the criteria.
  */
 export function sumSelective(numbers) {
-  // TODO
+  let number = 0
+  for (let num of numbers) {
+    if ((num % 2 === 0 && num > 10) || (num % 2 !== 0 && num <= 10)) {
+      continue
+    }
+    number += num
+  }  
+  return number
 }
